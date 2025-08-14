@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 50px;
+  font-family: "Nata Sans", sans-serif;
+}
+
+
+body {
+  background-image: url(back-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  font-size: 25px;  
+}
+
+
+.theWelcome {
+  background-image: url(main-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;    
+  text-align: center;  
+  color: white;
+}
+.theWelcome p {
+  margin-top: 2em;
+  font-size: 35px;
+}
+
+.theWelcome p:nth-of-type(2) {
+  font-size: 12px;
+  text-align: center;
+  max-width: 63%;
+  margin-top: 1em;
+}
+
+.mainBox {
+  width: 30%;
+  height: 70%;
+  border-radius: 1em;
+  overflow: hidden;   
+}
+
+section {
+  display: flex;
+  flex-direction: row;   
+  align-items: center;     
+  justify-content: center;  
+  height: 40px;
+  background-color: #ffbccd; 
+  width: 60%;
+  gap: 10px;
+  overflow: hidden;
+  border-radius: 1em;
+  max-width: 400px; 
+}
+
+section img {
+  flex-shrink: 0;
+  height: 70%; 
+  width: auto;  
+  object-fit: contain;
+  margin-left: 10%;
+}
+
+form div {
+  display: flex;
+  justify-content: space-between; 
+  width: 63%; 
+  max-width: 400px; 
+  flex-wrap: wrap;        
+}
+
+form div a {
+  font-size: 22px;
+  text-decoration: none; 
+}
+
+
+form {
+  background-color: white;
+  min-height: 50%;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;      
+  justify-content: space-evenly;
+}
+
+form * {
+  color: #ffbccd;
+  font-size: 25px;
+}
+
+input {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: white;
+  background-color: transparent;
+  min-width: 0;
+}
+
+
+::placeholder {
+  color: white;
+  font-family: "Nata Sans", sans-serif;
+}
+
+.login-section {
+  max-width: 90px;
+  height: 40px;
+  background-color: #ffbccd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+
+}
+
+.login-btn {
+  margin: 10px 0;
+  font-size: 20px;
+  background-color: #ffbccd;
+  border: none;
+  color: white;
+  font-family: "Nata Sans", sans-serif;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  font-weight: 800;
+}
+
+a:hover {
+  font-weight: 700;
+}
+
+
+
